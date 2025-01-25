@@ -12,6 +12,8 @@ std::string do_work() {
 
 int main() {
   // launch do_work() in a background thread and store the future result
+  // *always* use std::launch::async here to ensure the function is executed in
+  // a separate thread
   auto future_result = std::async(std::launch::async, do_work);
 
   // do some other work in the main thread
