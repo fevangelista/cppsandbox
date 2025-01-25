@@ -1,0 +1,68 @@
+> push_back
+
+A::A()
+A::A(A&&)
+A::~A()
+A::A()
+A::A(A&&)
+A::A(const A&)
+A::~A()
+A::~A()
+A::A()
+A::A(A&&)
+A::A(const A&)
+A::A(const A&)
+A::~A()
+A::~A()
+A::~A()
+A::~A()
+A::~A()
+A::~A()
+
+> emplace_back
+
+A::A()
+A::A()
+A::A(const A&)
+A::~A()
+A::A()
+A::A(const A&)
+A::A(const A&)
+A::~A()
+A::~A()
+A::~A()
+A::~A()
+A::~A()
+
+> reserve + emplace_back
+
+A::A()
+A::A()
+A::A()
+A::~A()
+A::~A()
+A::~A()
+
+> initialize with size
+
+A::A()
+A::A()
+A::A()
+A::~A()
+A::~A()
+A::~A()
+
+> initialize with list
+
+A::A()
+A::A()
+A::A()
+A::A(const A&)
+A::A(const A&)
+A::A(const A&)
+A::~A()
+A::~A()
+A::~A()
+A::~A()
+A::~A()
+A::~A()
